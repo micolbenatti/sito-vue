@@ -1,7 +1,5 @@
-<script setup> </script>
+<script setup></script>
 
 <template>
-  <div>
-    <h1>Works</h1>
-  </div>
+  <div class="page-title">Works</div>
 </template>

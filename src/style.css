@@ -18,20 +18,19 @@
 }
 
 main {
-  border: 1px solid red;
   @apply text-lg;
 }
 
 a.link {
   font-weight: 600;
-  color: #f8a4ff;
+  color: #f9ad62;
 }
 
 body {
   margin: 0;
   display: flex;
   place-items: center;
-  text-align: center;
+  place-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -50,14 +49,6 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
 .card {

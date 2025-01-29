@@ -24,6 +24,5 @@ defineProps({
 <style scoped>
   .gallery {
     margin-top: 80px;
-    border: 1px solid red;
   }
 </style>

@@ -45,11 +45,7 @@ const handleClick = () => {
   console.log("button clicked");
 }
 
-
-
 </script>
-
-
 
 <template>
   <div v-if="loading">
@@ -70,6 +66,11 @@ const handleClick = () => {
 </template>
 
 <style scoped>
+
+.container{
+  text-align: center;
+  
+}
 .section {
   @apply mb-8;
 }
